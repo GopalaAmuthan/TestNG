@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jun 20 12:47:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>10 seconds (10844 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='toDoMVCScripts.VerifyMarkAsCompleteToDoTask.completeaddedItem()'><b>completeaddedItem</b><br>Test class: toDoMVCScripts.VerifyMarkAsCompleteToDoTask<br/>
+<a href="#Output-1179638475" onClick='toggleBox("Output-1179638475", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1179638475" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1179638475">
+Entering into validate the added item is marked as completed item in List<br/>
+Added item is marked as completed item in List<br/>
+Completed validating the added item is marked as completed item in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b</td></tr>
+<tr>
+<td title='toDoMVCScripts.VerifyFilteringToDoStatus.validateFooterForCompleteaddedItem()'><b>validateFooterForCompleteaddedItem</b><br>Test class: toDoMVCScripts.VerifyFilteringToDoStatus<br/>
+<a href="#Output-868868512" onClick='toggleBox("Output-868868512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-868868512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-868868512">
+Entering into validate the footer for completed item in List<br/>
+Footer count of completed item is diplayed as 1<br/>
+Completed validating the footer for completed item in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4</td></tr>
+<tr>
+<td title='toDoMVCScripts.VerifyFilteringToDoStatus.validateFooterForActiveaddedItem()'><b>validateFooterForActiveaddedItem</b><br>Test class: toDoMVCScripts.VerifyFilteringToDoStatus<br/>
+<a href="#Output-1281314148" onClick='toggleBox("Output-1281314148", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1281314148" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281314148">
+Entering into validate the footer for Active item in List<br/>
+Footer count of Active item is diplayed as 1<br/>
+Completed validating the footer for Active item in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4</td></tr>
+<tr>
+<td title='toDoMVCScripts.VerifyMarkAsCompleteToDoTask.validateFooterCount()'><b>validateFooterCount</b><br>Test class: toDoMVCScripts.VerifyMarkAsCompleteToDoTask<br/>
+<a href="#Output-1158474503" onClick='toggleBox("Output-1158474503", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1158474503" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1158474503">
+Entering into validate the footer after marking an item as completed item in List<br/>
+Footer count of is displayed as 0 after marking an item as completed item in List<br/>
+Completed validating the footer after marking an item as completed item in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b</td></tr>
+<tr>
+<td title='toDoMVCScripts.VerifyAddedToDoList.verifyAddItem()'><b>verifyAddItem</b><br>Test class: toDoMVCScripts.VerifyAddedToDoList<br/>
+<a href="#Output-1127683497" onClick='toggleBox("Output-1127683497", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1127683497" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1127683497">
+Entering into validate the added item in List<br/>
+Drink Water is added in List<br/>
+Completed validating the added item in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyAddedToDoList@36546a22</td></tr>
+<tr>
+<td title='toDoMVCScripts.VerifyRemoveToDoTask.removeAddedTask()'><b>removeAddedTask</b><br>Test class: toDoMVCScripts.VerifyRemoveToDoTask<br/>
+<a href="#Output-402897164" onClick='toggleBox("Output-402897164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402897164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402897164">
+Entering into validate the removed item is not present in List<br/>
+Removed item is not present in List<br/>
+Completed validating the removed item is not present in List<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>toDoMVCScripts.VerifyRemoveToDoTask@3d484181</td></tr>
+</table><p>
+</body>
+</html>

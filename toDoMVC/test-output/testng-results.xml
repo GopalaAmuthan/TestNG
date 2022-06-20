@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entering into validate the added item in List]]>
+    </line>
+    <line>
+      <![CDATA[Drink Water is added in List]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the added item in List]]>
+    </line>
+    <line>
+      <![CDATA[Entering into validate the footer for Active item in List]]>
+    </line>
+    <line>
+      <![CDATA[Footer count of Active item is diplayed as 1]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the footer for Active item in List]]>
+    </line>
+    <line>
+      <![CDATA[Entering into validate the footer for completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Entering into validate the removed item is not present in List]]>
+    </line>
+    <line>
+      <![CDATA[Footer count of completed item is diplayed as 1]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the footer for completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Removed item is not present in List]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the removed item is not present in List]]>
+    </line>
+    <line>
+      <![CDATA[Entering into validate the added item is marked as completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Added item is marked as completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the added item is marked as completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Entering into validate the footer after marking an item as completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Footer count of is displayed as 0 after marking an item as completed item in List]]>
+    </line>
+    <line>
+      <![CDATA[Completed validating the footer after marking an item as completed item in List]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-20T12:47:49 IST" name="Suite" finished-at="2022-06-20T12:48:00 IST" duration-ms="10844">
+    <groups>
+    </groups>
+    <test started-at="2022-06-20T12:47:49 IST" name="Test" finished-at="2022-06-20T12:48:00 IST" duration-ms="10844">
+      <class name="toDoMVCScripts.VerifyAddedToDoList">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:toDoMVCScripts.VerifyAddedToDoList@36546a22]" started-at="2022-06-20T12:47:49 IST" name="loadFiles" finished-at="2022-06-20T12:47:58 IST" duration-ms="8349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method signature="verifyAddItem()[pri:0, instance:toDoMVCScripts.VerifyAddedToDoList@36546a22]" started-at="2022-06-20T12:47:58 IST" name="verifyAddItem" finished-at="2022-06-20T12:47:58 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the added item in List]]>
+            </line>
+            <line>
+              <![CDATA[Drink Water is added in List]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the added item in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAddItem -->
+        <test-method is-config="true" signature="shutDownDriver()[pri:0, instance:toDoMVCScripts.VerifyAddedToDoList@36546a22]" started-at="2022-06-20T12:47:58 IST" name="shutDownDriver" finished-at="2022-06-20T12:47:59 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver -->
+      </class> <!-- toDoMVCScripts.VerifyAddedToDoList -->
+      <class name="toDoMVCScripts.VerifyFilteringToDoStatus">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4]" started-at="2022-06-20T12:47:49 IST" name="loadFiles" finished-at="2022-06-20T12:47:58 IST" duration-ms="8789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method signature="validateFooterForActiveaddedItem()[pri:0, instance:toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4]" started-at="2022-06-20T12:47:58 IST" name="validateFooterForActiveaddedItem" finished-at="2022-06-20T12:47:58 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the footer for Active item in List]]>
+            </line>
+            <line>
+              <![CDATA[Footer count of Active item is diplayed as 1]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the footer for Active item in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFooterForActiveaddedItem -->
+        <test-method signature="validateFooterForCompleteaddedItem()[pri:0, instance:toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4]" started-at="2022-06-20T12:47:58 IST" name="validateFooterForCompleteaddedItem" finished-at="2022-06-20T12:47:58 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the footer for completed item in List]]>
+            </line>
+            <line>
+              <![CDATA[Footer count of completed item is diplayed as 1]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the footer for completed item in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFooterForCompleteaddedItem -->
+        <test-method is-config="true" signature="shutDownDriver()[pri:0, instance:toDoMVCScripts.VerifyFilteringToDoStatus@1dd0e7c4]" started-at="2022-06-20T12:47:58 IST" name="shutDownDriver" finished-at="2022-06-20T12:48:00 IST" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver -->
+      </class> <!-- toDoMVCScripts.VerifyFilteringToDoStatus -->
+      <class name="toDoMVCScripts.VerifyRemoveToDoTask">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:toDoMVCScripts.VerifyRemoveToDoTask@3d484181]" started-at="2022-06-20T12:47:49 IST" name="loadFiles" finished-at="2022-06-20T12:47:58 IST" duration-ms="9045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method signature="removeAddedTask()[pri:0, instance:toDoMVCScripts.VerifyRemoveToDoTask@3d484181]" started-at="2022-06-20T12:47:58 IST" name="removeAddedTask" finished-at="2022-06-20T12:47:59 IST" duration-ms="396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the removed item is not present in List]]>
+            </line>
+            <line>
+              <![CDATA[Removed item is not present in List]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the removed item is not present in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeAddedTask -->
+        <test-method is-config="true" signature="shutDownDriver()[pri:0, instance:toDoMVCScripts.VerifyRemoveToDoTask@3d484181]" started-at="2022-06-20T12:47:59 IST" name="shutDownDriver" finished-at="2022-06-20T12:48:00 IST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver -->
+      </class> <!-- toDoMVCScripts.VerifyRemoveToDoTask -->
+      <class name="toDoMVCScripts.VerifyMarkAsCompleteToDoTask">
+        <test-method is-config="true" signature="loadFiles()[pri:0, instance:toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b]" started-at="2022-06-20T12:47:49 IST" name="loadFiles" finished-at="2022-06-20T12:48:00 IST" duration-ms="10372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFiles -->
+        <test-method signature="completeaddedItem()[pri:0, instance:toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b]" started-at="2022-06-20T12:48:00 IST" name="completeaddedItem" finished-at="2022-06-20T12:48:00 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the added item is marked as completed item in List]]>
+            </line>
+            <line>
+              <![CDATA[Added item is marked as completed item in List]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the added item is marked as completed item in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- completeaddedItem -->
+        <test-method signature="validateFooterCount()[pri:0, instance:toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b]" started-at="2022-06-20T12:48:00 IST" name="validateFooterCount" finished-at="2022-06-20T12:48:00 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entering into validate the footer after marking an item as completed item in List]]>
+            </line>
+            <line>
+              <![CDATA[Footer count of is displayed as 0 after marking an item as completed item in List]]>
+            </line>
+            <line>
+              <![CDATA[Completed validating the footer after marking an item as completed item in List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateFooterCount -->
+        <test-method is-config="true" signature="shutDownDriver()[pri:0, instance:toDoMVCScripts.VerifyMarkAsCompleteToDoTask@7894f09b]" started-at="2022-06-20T12:48:00 IST" name="shutDownDriver" finished-at="2022-06-20T12:48:00 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver -->
+      </class> <!-- toDoMVCScripts.VerifyMarkAsCompleteToDoTask -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
